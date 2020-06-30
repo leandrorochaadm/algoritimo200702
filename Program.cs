@@ -9,7 +9,8 @@ namespace c_
 
         static void Main(string[] args)
         {
-            Exerc1 exerc1 = new Exerc1();
+            var exerc1 = new Exerc1();
+            var exerc2 = new Exerc2();
             Byte _opition;
 
         do{
@@ -19,6 +20,7 @@ namespace c_
             switch (_opition)
             {
                 case 1 : exerc1.exe(); break;
+                case 2 : exerc2.exe(); break;
                 default: _opition =0;  break;
             }
 
