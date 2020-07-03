@@ -5,7 +5,7 @@ namespace c_
     class Program
     {
         private const byte exercInicial = 1;
-        private const byte exercFinal = 9;
+        private const byte exercFinal = 10;
 
         static void Main(string[] args)
         {
@@ -13,11 +13,12 @@ namespace c_
             var exerc2 = new Exerc2();
             var exerc3 = new Exerc3();
             var exerc4 = new Exerc4();
+            var exerc5 = new Exerc5();
             Byte _opition;
 
         do{
             System.Console.WriteLine($"\nDigite o número do exercicio que desejar entre {exercInicial} a {exercFinal}, ou número 0 pra sair");
-            _opition = Convert.ToByte(System.Console.ReadLine().Substring(0,1));
+            _opition = Convert.ToByte(System.Console.ReadLine());
             System.Console.WriteLine($"Você escolheu o exercício {_opition}:");
             switch (_opition)
             {
@@ -25,6 +26,7 @@ namespace c_
                 case 2 : exerc2.exe(); break;
                 case 3 : exerc3.exe(); break;
                 case 4 : exerc4.exe(); break;
+                case 5 : exerc5.exe(); break;
                 default: _opition =0;  break;
             }
 
