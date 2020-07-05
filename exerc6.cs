@@ -16,8 +16,6 @@ namespace c_
 
         List<String> listNome = new List<String>();
         List<double> listSalario = new List<double>();
-        double soma = 0.0;
-
 
         System.Console.WriteLine("Quantos funcionários deseja adicionar?");
         int length = int.Parse(System.Console.ReadLine());
