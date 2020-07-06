@@ -16,6 +16,7 @@ namespace c_
             var exerc5 = new Exerc5();
             var exerc6 = new Exerc6();
             var exerc7 = new Exerc7();
+            var exerc8 = new Exerc8();
             Byte _opition;
 
         do{
@@ -31,6 +32,7 @@ namespace c_
                 case 5 : exerc5.exe(); break;
                 case 6 : exerc6.exe(); break;
                 case 7 : exerc7.exe(); break;
+                case 8 : exerc8.exe(); break;
                 default: _opition =0;  break;
             }
 
