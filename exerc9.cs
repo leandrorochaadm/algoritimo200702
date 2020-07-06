@@ -43,7 +43,7 @@ namespace c_
                 if(corCabelo=="l"&&corOlhos=="v") quantLoiro++;
             }
         } while (_option != "-1");
-            System.Console.WriteLine($"\n Quantidade de indivíduos que tenham olhos verdes e cabelos louros Resumo da pesquisa dos habitantes:\n\u00BB Maior idade: {maiorIdade} \n\u00BB A quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos: {quantFem} \n\u00BB Quantidade de indivíduos que tenham olhos verdes e cabelos louros: {quantLoiro}");
+            System.Console.WriteLine($"\n Resumo da pesquisa dos habitantes:\n\u00BB Maior idade: {maiorIdade} \n\u00BB A quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos: {quantFem} \n\u00BB Quantidade de indivíduos que tenham olhos verdes e cabelos louros: {quantLoiro}");
 
         }
     }
