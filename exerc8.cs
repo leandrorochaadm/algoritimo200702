@@ -10,21 +10,24 @@ namespace c_
         "terminar quando o valor de x se tornar 11." );
 
 System.Console.WriteLine("ENQUANTO-FACA");
-        int x =0;
-        while (x<11)
+        int x =1;
+        int soma = 0;
+        while (x<=11)
         {
+            soma +=x;
+            System.Console.WriteLine($"x={x}, soma ={soma}");
             x++;
-            System.Console.WriteLine(x);
         }
         
         System.Console.WriteLine("REPITA-FACA ");
         x=0;
+        soma=0;
         do
         {
+            soma +=x;
+            System.Console.WriteLine($"x={x}, soma ={soma}");
             x++;
-            System.Console.WriteLine(x);
-    
-        } while (x<11);
+        } while (x<=11);
         } 
     }
 }
